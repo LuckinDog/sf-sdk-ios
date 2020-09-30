@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SensorsFocusTest'
-  s.version      = "0.1.8"
+  s.version      = "0.1.9"
   s.summary      = 'SDK Test'
   s.homepage     = 'http://www.sensorsdata.cn'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.5.0'
   s.ios.framework = 'UIKit', 'Foundation'
   s.dependency 'SensorsAnalyticsSDK', '>=2.0.3'
-  s.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER': 'com.sensorsdata.SensorsFocus'}
+  s.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER': 'com.sensorsdata.SensorsFocus', 'OTHER_LDFLAGS' => '-lObjC'}
+  s.static_framework = true
 
   base_dir = 'SensorsFocus/'
   s.resource = base_dir + 'SensorsFocus.bundle'
