@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.5.0'
   s.ios.framework = 'UIKit', 'Foundation'
   s.dependency 'SensorsAnalyticsSDK', '>=2.0.3'
-  s.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER': 'com.sensorsdata.SensorsFocus', 'OTHER_LDFLAGS' => '-lObjC'}
+  s.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER': 'com.sensorsdata.SensorsFocus'}
   s.static_framework = true
 
   base_dir = 'SensorsFocus/'
