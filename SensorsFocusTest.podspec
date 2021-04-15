@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SensorsFocusTest'
-  s.version      = "0.2.1"
+  s.version      = "0.4.0"
   s.summary      = 'SDK Test'
   s.homepage     = 'http://www.sensorsdata.cn'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
