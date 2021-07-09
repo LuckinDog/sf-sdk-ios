@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.cocoapods_version = '>= 1.5.0'
+  s.cocoapods.version      = '0.4.3'
   s.ios.framework = 'UIKit', 'Foundation'
   s.dependency 'SensorsAnalyticsSDK', '>=2.1.6'
   s.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER': 'com.sensorsdata.SensorsFocus', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}

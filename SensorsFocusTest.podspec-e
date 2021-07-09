@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'SensorsFocus'
-  s.version      = "0.4.3"
+  s.version      = '0.4.3'
   s.summary      = 'The official iOS SDK of Sensors Focus.'
   s.homepage     = 'http://www.sensorsdata.cn'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
-  s.source       = { :git => 'https://github.com/sensorsdata/sf-sdk-ios.git', :tag => 'v' + s.version.to_s}
+  s.source       = { :git => 'https://github.com/sensorsdata/sf-sdk-ios.git', :tag => 'v' + s.version      = '0.4.3'
   s.author       = 'Sensors Data'
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
