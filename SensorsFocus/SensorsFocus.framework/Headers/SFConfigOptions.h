@@ -41,6 +41,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 可以通过这个接口，设置弹窗展示的代理对象
 @property (nonatomic, weak) id<SensorsFocusPopupDelegate> popupDelegate;
+@property (nonatomic, weak) id<SensorsFocusCampaignDelegate> campaignDelegate;
+
+//default to YES, if set to NO, will not pre-download image
+@property (nonatomic, assign) BOOL preloadImage;
 
 @end
 
