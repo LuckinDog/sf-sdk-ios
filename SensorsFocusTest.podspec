@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'SensorsFocusTest'
-  s.version      = 
+  s.version      = ''
   s.summary      = 'SDK Test'
   s.homepage     = 'http://www.sensorsdata.cn'
   s.license      = { :type => 'Apache 2.0', :file => 'LICENSE' }
-  s.source       = { :git => 'https://github.com/LuckinDog/sf-sdk-ios.git', :tag => 'v' + s.version      = 
+  s.source       = { :git => 'https://github.com/LuckinDog/sf-sdk-ios.git', :tag => 'v' + s.version      = ''
   s.author       = 'Yuguo Chen'
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
